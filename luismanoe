@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dream Escape Wellness & Spa</title>
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+    <!-- REVOLUTION SETTINGS STYLES -->
+    <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+    <!-- REVOLUTION LAYERS STYLES -->
+    <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+    <!-- REVOLUTION NAVIGATION STYLES -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--Color Switcher Mockup-->
+    <link href="css/color-switcher-design.css" rel="stylesheet">
+
+    <!--Color Themes-->
+    <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+
+
+        <!-- Main Header-->
+        <header class="main-header header-style-two">
+
+
+
+            <!--Header-Upper-->
+            <div class="header-upper">
+                <div class="auto-container">
+                    <div class="clearfix">
+
+                        <div class="pull-left logo-outer">
+                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                        </div>
+
+                        <div class="pull-right upper-right clearfix">
+
+                            <!--Info Box-->
+                            <div class="upper-column search-box">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="search" name="field-name" value="" placeholder="Search Here" required>
+                                        <button type="submit" class="search-btn" onclick="myFunction()"><span class="fa fa-search"></span></button>
+
+                                        <script>
+                                            function myFunction() {
+                                                var txt;
+                                                if (confirm("Oops... Please book first to search a masseus/masseur.")) {
+                                                    window.open("luismanoeappointment.html");
+                                                } else {
+                                                    window.close;
+                                                }
+                                            }
+                                        </script>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!--Info Box-->
+                            <div class="upper-column info-box">
+
+
+                                <div class="social-links">
+                                    <ul class="social-icon-one">
+                                        <li><a href="https://www.instagram.com/explore/tags/massage/"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=FxYZ3FsscYI"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a href="https://twitter.com/hashtag/massage"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.facebook.com/hashtag/massage/"><i class="fa fa-facebook"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Header Upper-->
+
+            <!-- Header Lower -->
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="main-box clearfix">
+                        <!--Nav Outer-->
+                        <div class="nav-outer clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li class="current"><a href="#">Home</a>
+
+                                        </li>
+                                        <li><a href="#about">About</a>
+
+                                        </li>
+                                        <li><a href="#services">Services</a>
+
+                                        </li>
+                                        <li><a href="luismanoevalidate.html">Booking Validation</a>
+
+                                        </li>
+
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!-- Main Menu End-->
+
+                            <!--outer Box-->
+                            <div class="link-box">
+                                <a href="#booknow">Book Now</a>
+                            </div>
+                            <!--End outer Box-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Lower -->
+
+            <!--Sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container clearfix">
+                    <!--Logo-->
+                    <div class="logo pull-left">
+                        <a href="index.html"><img src="images/logo.png" alt="" title=""></a>
+                    </div>
+
+                    <!--Right Col-->
+                    <div class="right-col pull-right">
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            </div>
+
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li class="current"><a href="#">Home</a>
+
+                                    </li>
+                                    <li><a href="#about">About</a>
+
+                                    </li>
+                                    <li><a href="#services">Services</a>
+
+                                    </li>
+                                    <li><a href="luismanoevalidate.html">Booking Validation</a>
+
+                                    </li>
+
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+                    </div>
+
+                </div>
+            </div>
+            <!--End Sticky Header-->
+        </header>
+        <!--End Main Header -->
+
+        <!--Main Slider-->
+        <section class="main-slider style-two">
+            <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_two_wrapper" data-source="gallery">
+                <div class="rev_slider fullwidthabanner" id="rev_slider_two" data-version="5.4.1">
+                    <ul>
+                        <!-- Slide 1 -->
+                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default"
+                            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg"
+                            data-title="Slide Title" data-transition="parallaxvertical">
+
+                            <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-7.jpg">
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','550','550']" data-whitespace="normal"
+                                data-hoffset="['15','15','15','15']" data-voffset="['-135','-135','-135','-135']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <h2 class="title">Home Service Massage</h2>
+                            </div>
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['700','700','700','700']" data-whitespace="normal"
+                                data-hoffset="['15','15','15','15']" data-voffset="['-50','-50','-50','-50']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <h2 class="title2">Dream Escape</h2>
+                            </div>
+
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="normal" data-width="['700','700','450','450']"
+                                data-hoffset="['15','15','15','15']" data-voffset="['20','20','20','20']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <div class="text">is not just a luxury. It's a way to a healthier, happier life.</div>
+                            </div>
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="auto" data-whitespace="nowrap" data-hoffset="['15','15','15','15']"
+                                data-voffset="['100','100','100','140']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <a href="#booknow" class="theme-btn btn-style-one">Book Now <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </li>
+
+                        <!-- Slide 2 -->
+                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default"
+                            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg"
+                            data-title="Slide Title" data-transition="parallaxvertical">
+
+                            <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-3.jpg">
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','550','550']" data-whitespace="normal"
+                                data-hoffset="['15','15','15','15']" data-voffset="['-135','-135','-135','-135']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <h2 class="title">Home Service Massage</h2>
+                            </div>
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['700','700','700','700']" data-whitespace="normal"
+                                data-hoffset="['15','15','15','15']" data-voffset="['-50','-50','-50','-50']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <h2 class="title2">Dream Escape</h2>
+                            </div>
+
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="normal" data-width="['700','700','450','450']"
+                                data-hoffset="['15','15','15','15']" data-voffset="['20','20','20','20']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <div class="text">Professional massage therapy in a comfortable environment, when you need it.</div>
+                            </div>
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="auto" data-whitespace="nowrap" data-hoffset="['15','15','15','15']"
+                                data-voffset="['100','100','100','140']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <a href="#booknow" class="theme-btn btn-style-one">Book Now <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </li>
+
+                        <!-- Slide 3 -->
+                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default"
+                            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg"
+                            data-title="Slide Title" data-transition="parallaxvertical">
+
+                            <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-5.jpg">
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','550','550']" data-whitespace="normal"
+                                data-hoffset="['15','15','15','15']" data-voffset="['-135','-135','-135','-135']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <h2 class="title">Home Service Massage</h2>
+                            </div>
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['700','700','700','700']" data-whitespace="normal"
+                                data-hoffset="['15','15','15','15']" data-voffset="['-50','-50','-50','-50']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <h2 class="title2">Dream Escape</h2>
+                            </div>
+
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="normal" data-width="['700','700','450','450']"
+                                data-hoffset="['15','15','15','15']" data-voffset="['20','20','20','20']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <div class="text">Expect to get the skilled treatment you need.</div>
+                            </div>
+
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="auto" data-whitespace="nowrap" data-hoffset="['15','15','15','15']"
+                                data-voffset="['100','100','100','140']" data-x="['right','right','right','right']" data-y="['middle','middle','middle','middle']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                                <a href="#booknow" class="theme-btn btn-style-one">Book Now <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="arrow-down">
+                <a class="scroll-to-target" href="#" data-target="#services"><i class="fa fa-angle-double-down"></i></a>
+            </div>
+        </section>
+        <!--End Main Slider-->
+
+        <!-- Services Section Two -->
+        <section class="services-section-two" id="services">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <span class="title">We take for you</span>
+                    <h2>Our Best Services</h2>
+                    <div class="separator"><span class="flaticon-flower"></span></div>
+                    <p>Every treatment is specifically designed to offer a unique experience, using powerful massage sequences <br>and the most potent actives available in the world today.</p>
+                </div>
+
+                <div class="row clearfix">
+                    <!--Content Column-->
+                    <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="inner-column">
+                            <ul class="services-list">
+                                <li>
+                                    <span class="icon flaticon-aromatherapy"></span>
+                                    <h3><a href="#booknow">Complete Detoxification</a></h3>
+                                    <p>When you undergo our total detox package, it’s a rebirth!</p>
+                                </li>
+
+                                <li>
+                                    <span class="icon flaticon-leaf"></span>
+                                    <h3><a href="#booknow">Herbal & Natural</a></h3>
+                                    <p>Our treatment is safe from any kind of side effect as it is pure & natural.</p>
+                                </li>
+
+                                <li>
+                                    <span class="icon flaticon-spa-7"></span>
+                                    <h3><a href="#booknow">Steam Bath </a></h3>
+                                    <p>Steam bath relieves the body and mind of stress and relaxes the muscles.</p>
+                                </li>
+
+                                <li>
+                                    <span class="icon flaticon-bamboo"></span>
+                                    <h3><a href="#booknow">Effective Treatments </a></h3>
+                                    <p>Time tested treatments for total relief from stress, strains and tensions.</p>
+                                </li>
+
+                                <li>
+                                    <span class="icon flaticon-oil-3"></span>
+                                    <h3><a href="#booknow">Naturally Spa</a></h3>
+                                    <p>Natural Spa uses their own organically grown herbs from their garden.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Image Column -->
+                    <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="inner-column">
+                            <div class="image-box">
+                                <figure class="image-one"><img src="images/resource/image-3.png" alt=""></figure>
+                                <figure class="image-two"><img src="images/resource/side-img-4.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+        <!-- Fluid Section One-->
+        <section class="fluid-section-one" id="about">
+            <div class="outer-container clearfix">
+                <!--Content Column-->
+                <div class="content-column">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <span class="title">Treat like no other</span>
+                            <h2>Why Choose Dream Escape Wellness & Spa?</h2>
+                            <div class="separator"><span class="flaticon-flower"></span></div>
+                            <div class="text">
+                                <p>Remember to unlock from within you, the stillness and the sanctuary to which you can retreat at any time to be yourself. Make a decision to empower yourself by opting to go to Serenity Kneads. Since prophylaxis is better
+                                    than cure or treatment after the problem has surfaced!</p>
+                                <p>Explain to you how all this mistaken idea of denouncing ut pleasure work praising pain was born and will give.</p>
+                            </div>
+                        </div>
+
+                        <ul class="choose-info clearfix">
+                            <li>
+                                <span class="icon flaticon-brain-1"></span>
+                                <h4><a href="#booknow">Mind Relaxing</a></h4>
+                                <p>Created from natural herbs</p>
+                            </li>
+
+                            <li>
+                                <span class="icon flaticon-skin"></span>
+                                <h4><a href="#booknow">Well Care Therapists</a></h4>
+                                <p>Quality service from us.</p>
+                            </li>
+
+                            <li>
+                                <span class="icon flaticon-spa-16"></span>
+                                <h4><a href="#booknow">Special Guides</a></h4>
+                                <p> 100% safe for your skin</p>
+                            </li>
+
+                            <li>
+                                <span class="icon flaticon-treatment"></span>
+                                <h4><a href="#booknow">Effective Treatments</a></h4>
+                                <p>Ginseng roots extract</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Image Column-->
+                <div class="image-column" style="background-image:url(images/resource/image-4.jpg);">
+                    <figure class="image-box"><img src="images/resource/image-4.jpg" alt=""></figure>
+                </div>
+            </div>
+        </section>
+        <!-- End Fluid Section -->
+
+        <!-- Gift Section -->
+        <section class="gift-section" id="booknow">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <span class="title">Easy to give. Delicious to enjoy</span>
+                    <h2>Special Massage offered by our Hottest Therapists</h2>
+                    <div class="separator"><span class="flaticon-flower"></span></div>
+                </div>
+
+                <div class="row clearfix">
+                    <!-- Gift Block -->
+                    <div class="gift-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image-box"><a href="luismanoeappointment.html"><img src="images/resource/nuru.jpg" alt=""></a></div>
+                            <div class="info-box">
+                                <span class="price"><del>$160.00</del> $80.00</span>
+                                <h4><a href="luismanoeappointment.html">60 minutes</a></h4>
+                                <a href="luismanoeappointment.html" class="theme-btn btn-style-two">Book Now <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gift Block -->
+                    <div class="gift-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image-box"><a href="luismanoeappointment.html"><img src="images/resource/nuru.jpg" alt=""></a></div>
+                            <div class="info-box">
+                                <span class="price"><del>$200.00</del> $100.00</span>
+                                <h4><a href="luismanoeappointment.html">90 minutes</a></h4>
+                                <a href="luismanoeappointment.html" class="theme-btn btn-style-two">Book Now <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gift Block -->
+                    <div class="gift-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image-box"><a href="luismanoeappointment.html"><img src="images/resource/nuru.jpg" alt=""></a></div>
+                            <div class="info-box">
+                                <span class="price"><del>$280.00</del> $140.00</span>
+                                <h4><a href="luismanoeappointment.html">120 minutes</a></h4>
+                                <a href="luismanoeappointment.html" class="theme-btn btn-style-two">Book Now <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gift Block -->
+                    <div class="gift-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image-box"><a href="luismanoeappointment.html"><img src="images/resource/nuru.jpg" alt=""></a></div>
+                            <div class="info-box">
+                                <span class="price"><del>$360.00</del> $180.00</span>
+                                <h4><a href="luismanoeappointment.html">150 minutes</a></h4>
+                                <a href="luismanoeappointment.html" class="theme-btn btn-style-two">Book Now <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Gift Section -->
+
+        <!-- Procedure Section -->
+        <section class="procedure-section" style="background-image: url(images/background/7.jpg);">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <span class="title">Where nature meets bliss</span>
+                    <h2>Popular Procedures</h2>
+                    <div class="separator"><span class="flaticon-flower"></span></div>
+                </div>
+
+                <div class="row clearfix">
+                    <!-- Procedure Block -->
+                    <div class="procedure-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <span class="icon flaticon-wellness"></span>
+                                <span class="percent">90%</span>
+                            </div>
+                            <h3><a href="#booknow">Swedish Massage</a></h3>
+                            <div class="text">Circular pressure applied by the hands and palms, firm kneading, light tapping, and more. By using lighter, more general strokes such as effleurage and petrissage.</div>
+                        </div>
+                    </div>
+
+                    <!-- Procedure Block -->
+                    <div class="procedure-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <span class="icon flaticon-mask"></span>
+                                <span class="percent">90%</span>
+                            </div>
+                            <h3><a href="#booknow">Deep Tissue</a></h3>
+                            <div class="text">It involves applying sustained pressure using slow, deep strokes to target the inner layers of your muscles and connective tissues.</div>
+                        </div>
+                    </div>
+
+                    <!-- Procedure Block -->
+                    <div class="procedure-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <span class="icon flaticon-flower-1"></span>
+                                <span class="percent">90%</span>
+                            </div>
+                            <h3><a href="#booknow">Hot Stone Massage</a></h3>
+                            <div class="text">During a hot stone massage, smooth, flat, heated stones are placed on specific parts of your body. The stones are usually made of basalt, a type of volcanic rock that retains heat.</div>
+                        </div>
+                    </div>
+
+                    <!-- Procedure Block -->
+                    <div class="procedure-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <span class="icon flaticon-sauna-1"></span>
+                                <span class="percent">100%</span>
+                            </div>
+                            <h3><a href="#booknow">Nuru Massage</a></h3>
+                            <div class="text">A nuru massage is an erotic massage that originated in Japan. The masseuse uses his or her entire body to massage the client, providing more bodily contact than found in a traditional massage. The word “nuru” stems from a Japanese
+                                word for “slippery.” Why? Both the client and the masseuse are covered in Nuru massage gel. The gel is colorless, odorless and actually made of natural Nori Seaweed!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Procedure Section -->
+
+
+        <!--  Testimonial Section -->
+        <section class="testimonial-section" style="background-image: url(images/background/8.jpg);">
+            <div class="auto-container">
+                <div class="left-image"><img src="images/resource/side-img-6.png" alt=""></div>
+                <div class="right-image"><img src="images/resource/side-img-5.png" alt=""></div>
+                <div class="inner-container">
+                    <div class="sec-title">
+                        <span class="title">What they say about us</span>
+                        <h2>Testimonials</h2>
+                        <div class="separator"><span class="flaticon-flower"></span></div>
+                    </div>
+
+                    <div class="testimonial-carousel owl-carousel owl-theme">
+                        <!-- Testimonial Block -->
+                        <div class="testimonial-block">
+                            <div class="inner-box">
+                                <div class="thumb"><img src="images/resource/t1.jpg" alt=""></div>
+                                <div class="text">I feel so spoiled. The best part? I can relax at home and not have to deal with the outside world after my massage. Dream Escape massage always bring balance and peace after a hectic work week.</div>
+                                <span class="name">Mark Montero</span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Block -->
+                        <div class="testimonial-block">
+                            <div class="inner-box">
+                                <div class="thumb"><img src="images/resource/t2.jpg" alt=""></div>
+                                <div class="text">Yesterday I had a 1-hour full body massage and it has been a wonderful experience! It’s lovely, I felt comfortable immediately and the massage relaxed me a lot. I’ll book again for sure, thanks Dream Escape Massage.</div>
+                                <span class="name">Angelo Roberts</span>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Block -->
+                        <div class="testimonial-block">
+                            <div class="inner-box">
+                                <div class="thumb"><img src="images/resource/t3.jpg" alt=""></div>
+                                <div class="text">The MT is professional and friendly. I have been fortunate to have had a few of her treatments so far. The deep tissue massage is wonderful, and it literally hits all the spots! She also uses very good quality oils and
+                                    towels which make it a very luxurious experience. Top marks and recommended to everyone!!! Thanks Dream Escape Massage.</div>
+                                <span class="name">Michael Sanders</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Testimonial Section -->
+
+        <!-- Subscribe Section -->
+        <section class="subscribe-section" style="background-image: url(images/background/10.jpg);">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <center>
+                        <div class="title-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="inner-column">
+                                <h2>Book a Session Now</h2>
+                                <ul class="contact-info">
+                                    <li>Send us an email: dreamescapemgt@gmail.com</li>
+                                </ul><br>
+                                <a href="luismanoeappointment.html" class="theme-btn btn-style-two">Book Now <i class="fa fa-angle-double-right"></i></a>
+
+                            </div>
+                        </div>
+                    </center>
+
+
+                </div>
+            </div>
+        </section>
+        <!--End Subscribe Section -->
+
+        <!-- Main Footer -->
+        <footer class="main-footer style-two" id="contact">
+            <div class="auto-container">
+                <!--Widgets Section-->
+                <div class="widgets-section">
+                    <div class="row clearfix">
+                        <!--Big Column-->
+                        <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-12 col-sm-12 col-xs-12">
+                                    <div class="footer-widget about-widget">
+                                        <div class="footer-logo">
+                                            <figure>
+                                                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                                            </figure>
+                                        </div>
+                                        <div class="widget-content">
+                                            <p>Come to the lap of nature for a journey into yourself. Discover your true nature by doing spa and explore your potential.</p>
+                                            <div class="social-links">
+                                                <span>Social Media:</span>
+                                                <ul class="social-icon-one">
+                                                    <li><a href="https://www.instagram.com/explore/tags/massage/"><i class="fa fa-instagram"></i></a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=FxYZ3FsscYI"><i class="fa fa-youtube"></i></a></li>
+                                                    <li><a href="https://twitter.com/hashtag/massage"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="https://www.facebook.com/hashtag/massage/"><i class="fa fa-facebook"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!--Big Column-->
+                        <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-12 col-sm-12 col-xs-12">
+                                    <div class="footer-widget contact-widget">
+                                        <h2 class="widget-title">Contact Us</h2>
+                                        <div class="widget-content">
+                                            <ul class="contact-list">
+                                                <li><strong>Email : </strong>dreamescapemgt@gmail.com</li>
+                                                <li><strong>Availability : </strong>24 hours / 7 days a week</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Footer Bottom-->
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="copyright-text clearfix">
+                        <p>Copyright © Dream Escape Massage 2021. All rights reserved.</p>
+                        <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-level-up"></span></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Main Footer -->
+
+
+    </div>
+    <!--End pagewrapper-->
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Revolution Slider-->
+    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="js/main-slider-script.js"></script>
+    <!--End Revolution Slider-->
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/script.js"></script>
+    <!--Color Switcher-->
+    <script src="js/color-settings.js"></script>
+</body>
+
+</html>
