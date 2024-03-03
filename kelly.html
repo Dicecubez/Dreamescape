@@ -1,67 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<title>CasualDatingCommunitySite</title>
+<html>
+<title>CasualDatingCommunity.com Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
-</style><!DOCTYPE html>
-<html>
-<title>CasualDatingCommunity</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body id="myPage">
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
 
-<!-- Sidebar on click -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-    <i class="fa fa-remove"></i>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="http://i67.tinypic.com/2i75jbn.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
   </a>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button">Link 4</a>
-  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+ </a>
 </nav>
 
-<!-- Navbar -->
-  <!-- Navbar on small screens -->
-
-<!-- Image Header -->
-<div class="w3-display-container w3-animate-opacity">
-  <img src="http://i65.tinypic.com/szzjoh.jpg"
-  style="width:100%;min-height:350px;max-height:600px;">
-  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <button onclick="document.getElementById('id01').style.display='block'" 
-  </div>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    </div>
 </div>
-<!-- Modal -->
-<hr style="width:200px" class="w3-opacity">
-	<div class="w3-container w3-padding-64 w3-center">
-  <input type="checkbox"> Discreet Member - Hide the charges on your bank statement<br>
-  <input type="checkbox"> $0.00 - FREE MEMBERSHIP <br>
-  <input type="checkbox"> $39.99 - PREMIUM MEMBERSHIP
-<!-- Team Container -->
-<div class="w3-container w3-padding-64 w3-center" id="team">
-<iframe id="frame" style="margin:0px 0px 20px 0px; " src="https://alliance.joinsafelyonline.com/routes/alliance/?ofid=8&wlid=colossal&a_aid=alliance&a_bid=97babade&chan=code14" frameborder="0" scrolling="no" width="100%" height="420"></iframe>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Jessy Ford </h1>
+    <p>Event Organizer, Free Lance Model and Webcam Model/Performer </p>
+    <img src="http://i65.tinypic.com/33uvqwz.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About me: </h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I'm sweet and extraordinary, I'm a warm girl with a good sense of humor and passionate sexuality. I'm open minded and easy going person. I love to travel and meet different people. I'm a nice and hardworking girl, I can do my best to be independent, I'm the adventurous simple girl that can keep myself quiet. I have my innocent side and friendly character. I'm a girl with a strong faith that can face the reality of life. 
+    
+    
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">To give me 5 stars and to hangout and have some fun in person with me in person, just read and follow my instruction: </h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Just fill out all the details needed on there then just make sure you choose Free Access/0.00$ below before you click "CLICK HERE FOR ACCESS" button. Once you logged in just search my name easily its "jessyford69x4u" got it? Let me know your username once you logged, so I can easily search you as well.
+    
+    </header>
+<div class="box">
+<div class="joinForm">
+
+<iframe id="frame" style="margin:0px 0px 20px 0px; " src="https://alliance.joinsafelyonline.com/routes/alliance/?ofid=8&wlid=colossal&a_aid=alliance&a_bid=97babade&chan=code18" frameborder="0" scrolling="no" width="100%" height="420"></iframe>
 <div class="w3-padding-large" id="main">
 
+ </form>
+<center><form>
+<input type="checkbox" name="food" value="Free Access / "0.00" /><font size="5" face="arial" color="White"> Free Access <strong><em>/</strong></em>  <strong><em>0.00$</em></strong> <br /></br></form></center>
 
-<h2>Terms and Condition</h2>
-<p>We make sure to provide our members with a detailed transaction history so that they know what they are paying for. Credit card information is required to facilitate future purchases only. No charges will appear on your credit card statement, unless you upgrade to Premium Membership or you make a purchase..</div>
-Unlike many sites on the internet, this site uses encryption security technology. It employs Secure Socket Layering (SSL) to encrypt your personal info such as card number, name and address. Your data is encrypted and password-protected so no one will ever see your information</p>
+</form>
+<center><form>
+<input type="checkbox" name="food" value="VIP Member / "39.99$" /><font size="5" face="arial" color="White"> VIP Membership <strong><em>/</strong></em>  <strong><em>39.99$</em></strong> <br /></br></form></center>
 
-<!-- Work Row -->
+</form>
+<center><form>
+<input type="checkbox" name="food" value="Premium Access / "49.99$" /><font size="5" face="arial" color="White"> Premium Access <strong><em>/</strong></em>  <strong><em>49.99$</em></strong> <br /></br></form></center>
+  
+      
     </div>
+    <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-container w3-display-bottomleft w3-margin-bottom">
-      </div>
-        <img src="http://i65.tinypic.com/nlyczq.jpg" style="width:15%"><img src="http://i64.tinypic.com/2evajrb.jpg" style="width:15%"><img src="http://i64.tinypic.com/2popety.jpg" style="width:15%"><img src="http://i64.tinypic.com/2q833om.jpg" style="width:15%"><img src="http://i65.tinypic.com/122hflu.jpg" style="width:15%">
+      <div class="w3-half">
+        <img src="http://i67.tinypic.com/f59fed.jpg" style="width:100%">
+        <img src="http://i67.tinypic.com/256734l.jpg" style="width:100%">
+        <img src="http://i63.tinypic.com/nye70w.jpg" style="width:100%">
+        <img src="http://i67.tinypic.com/2e1asjr.jpg" style="width:100%">
      </div>
+
+      <div class="w3-half">
+        <img src="http://i68.tinypic.com/2d1ajvp.jpg" style="width:100%">
+        <img src="http://i63.tinypic.com/18zomx.jpg" style="width:100%">
+        <img src="http://i67.tinypic.com/33upysm.jpg" style="width:100%">
+        
+      </div>
+      
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <div class="w3-section">
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
